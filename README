@@ -1,6 +1,7 @@
 #plots ascii csv data downloaded from bepicolombo quicklook
 # http://bepicolombo.esac.esa.int/bscs-qla/home
 # needs GNU toolchain: bash, awk, sed on linux or MS windows with msys2/mingw or apple mac
-#usage: ./bcplot.sh filename.csv e. g.
+#usage: ./bcplot.sh filename.csv 
+#e. g.
 ./bcplot.sh berm1.csv
 
