@@ -4,7 +4,7 @@ RM=rm
 RMTMP=1
 plotcmd="graph -T X"
 gplotcmd="gnuplot -p -e \"plot '-' \" "
-### functions
+### define variables
 title="DefaultTitle"
 xl="time [s]"
 yl="counts [#]"
@@ -12,6 +12,7 @@ filename=$(basename "$1")
 extension="${filename##*.}"
 namenoext="${filename%.*}"
 tempfile=$namenoext'_'$(date +'%s')'.csv'
+### functions
 get_labels(){
     {
     read title
