@@ -5,3 +5,7 @@
 #e. g.
 ./bcplot.sh berm1.csv
 
+#to also create a data file with timestamps column converted to
+#seconds numerical values (field separator = space):
+./creategpplot.sh infile.csv outfile.ssv
+
